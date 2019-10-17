@@ -7,3 +7,4 @@ In plans:
   a) User can sign up, login, logut
   b) User have wallet
   c) User can buy products
+2) Cover code by tests
