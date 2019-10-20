@@ -12,7 +12,7 @@ class LineItemsController < ApplicationController
       @line_item.product = chosen_product
     end
 
-    @line_item.save
+    @line_item.save!
     redirect_to cart_path(current_cart)
   end
 
